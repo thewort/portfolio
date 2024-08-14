@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Components/Navbar'
-import CV from './Components/CV'
-import ContactMe from './Components/ContactMe'
-import AboutMe from './Components/AboutMe'
+import Navbar from './Pages/Navbar'
+import CV from './Pages/CV'
+import ContactMe from './Pages/ContactMe'
+import AboutMe from './Pages/AboutMe'
 
 
 function App() {
