@@ -419,18 +419,15 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 .portfolio--element--title {
   color: var(--heading-color);
-  line-height: 0px;
 }
 .portfolio--element--date {
   color: var(--heading-color);
-  line-height: 0px;
 }
 .portfolio--element--description {
   color: var(--darkblue);

@@ -28,21 +28,18 @@ export default function MyPortfolio() {
             <div className="portfolio--section--container">
                 <div className="portfolio--section">
                     <h2 className="portfolio--section--title">Experience</h2>
-                        <div className="portfolio--element--title--container">
-                            <h3 className="portfolio--element--title">Career Break</h3>
-                            <h3 className="portfolio--element--date">2020 - 2021</h3>
+                    {data?.Experience?.map((item, index) => (
+                        <div key={index} className="portfolio--element--card">
+                            <div className="portfolio--element--title--container">
+                                <h3 className="portfolio--element--title">{item.title}, {item.company}</h3>
+                                <h3 className="portfolio--element--date">{item.date}</h3>
+                            </div>
+                            <p className="portfolio--element--description">
+                                {item.description}
+                            </p>
                         </div>
-                        <p className="portfolio--element--description">
-                            • Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-                            tempora numquam sint odit optio.<br />
-                            <br />
-                            • Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-                            tempora numquam sint odit optio.
-                        </p>
+                    ))}
+                    
                     <div className="portfolio--element--title--container">
                         <h3 className="portfolio--element--title">Career Break</h3>
                         <h3 className="portfolio--element--date">2020 - 2021</h3>
