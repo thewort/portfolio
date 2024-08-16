@@ -30,10 +30,8 @@ export default function MyPortfolio() {
                     <h2 className="portfolio--section--title">Experience</h2>
                     {data?.Experience?.map((item, index) => (
                         <div key={index} className="portfolio--element--card">
-                            <div className="portfolio--element--title--container">
-                                <h3 className="portfolio--element--title">{item.title}, {item.company}</h3>
-                                <h3 className="portfolio--element--date">{item.date}</h3>
-                            </div>
+                            <h3 className="portfolio--element--title">{item.title}, {item.company}</h3>
+                            <h3 className="portfolio--element--date">{item.date}</h3>
                             <div className="portfolio--element--description">
                                 {Array.isArray(item.description) ? (
                                     item.description.map((desc, descIndex) => (
@@ -48,10 +46,8 @@ export default function MyPortfolio() {
                     <h2 className="portfolio--section--title">Education</h2>
                     {data?.Education?.map((item, index) => (
                         <div key={index} className="portfolio--element--card">
-                            <div className="portfolio--element--title--container">
-                                <h3 className="portfolio--element--title">{item.title}, {item.institution}</h3>
-                                <h3 className="portfolio--element--date">{item.date}</h3>
-                            </div>
+                            <h3 className="portfolio--element--title">{item.title}, {item.institution}</h3>
+                            <h3 className="portfolio--element--date">{item.date}</h3>
                             <div className="portfolio--element--description">
                                 {Array.isArray(item.description) ? (
                                     item.description.map((desc, descIndex) => (

@@ -665,6 +665,7 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1200px) {
+
   .btn-outline-primary {
     display: none;
   }
@@ -763,6 +764,9 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 0px 42.667px;
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;
@@ -798,7 +802,7 @@ input[type="checkbox"] {
     z-index: -1000;
   }
   .navbar--items.active {
-    top: 30px;
+    top: 0px;
   }
   .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
