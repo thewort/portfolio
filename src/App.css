@@ -24,6 +24,7 @@ p {
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
+  --grey-dates: #a8a8a873;
 }
 .btn {
   font-family: "Roboto";
@@ -412,22 +413,29 @@ h3 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
-  line-height: 24px;
+
+}
+.portfolio--element--card {
+  width: 100%;
 }
 .portfolio--element--title--container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   background: #fff;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  padding-bottom: 10.6px;
 }
 .portfolio--element--title {
   color: var(--heading-color);
+  line-height: 32px;
 }
 .portfolio--element--date {
-  color: var(--heading-color);
+  color: var(--grey-dates);
+  line-height: 32px;
 }
 .portfolio--element--description {
   color: var(--darkblue);
@@ -435,8 +443,8 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-
 }
+
 
 .portfolio--link {
   text-decoration: none;

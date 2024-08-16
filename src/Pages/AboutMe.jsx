@@ -6,18 +6,13 @@ export default function AboutMe() {
         </div>
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
-            <p className="section--title">About</p>
-            <h1 className="skills-section--heading">About Me</h1>
+            <p className="section--title">About me</p>
+            <h1 className="skills-section--heading">Samuel Derwort</h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-              tempora numquam sint odit optio.
+            I am a mechanical engineer with a Master’s degree from ETH Zürich and a Bachelor's from EPFL, Lausanne. My professional experience includes technical consulting, where I developed cloud-based solutions and automated processes.
             </p>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
+            I also have a research background, having worked on projects in wastewater technology and R&D for liquid flow sensors. I'm fluent in German, English, and French, and have a passion for exploring foreign cultures and languages.
             </p>
           </div>
         </div>

@@ -79,6 +79,7 @@
       "id": "1",
       "title": "Career Break",
       "company": "",
+      "place": "",
       "date": "NOVEMBER 2023 – JUNE 2024",
       "description": "• Improved my Spanish in language stays in Argentina, Chile, and Spain"
     },
@@ -86,22 +87,63 @@
       "id": "2",
       "title": "Technical Consultant",
       "company": "derwort-consulting AG",
-      "date": "JULY 2021 – OKTOBER 2023",
-      "description": "• Developed cloud-based solutions for managing manuals and documentation implemented in nearly 100 client institutions<br /><br />• Automated and streamlined migration tasks using Python and PowerShell, resulting in a 12-fold process acceleration<br /><br />• Trained end-users and supported customers in 10 Institutions<br /><br />• Developed a Power Automate-based tool for managing continuous process improvement (7 customer implementations)<br /><br />"
+      "place": "Degersheim",
+      "date": "JULY 2021 – OCTOBER 2023",
+      "description": [
+        "• Developed cloud-based solutions for managing manuals and documentation implemented in nearly 100 client institutions",
+        "• Automated and streamlined migration tasks using Python and PowerShell, resulting in a 12-fold process acceleration",
+        "• Trained end-users and supported customers in 10 Institutions",
+        "• Developed a Power Automate-based tool for managing continuous process improvement (7 customer implementations)"
+      ]
     },
     {
       "id": "3",
-      "title": "Back-End Developer",
-      "company": "Facebook",
-      "date": "2017 - 2019",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Research Assistant",
+      "company": "Eawag",
+      "place": "Dübendorf",
+      "date": "MAY 2021",
+      "description": "• Elaborated code documentation using Sphinx following Master Thesis to make the developed model available for further research"
     },
     {
       "id": "4",
-      "title": "UI & UX Designer",
-      "company": "Instagram",
-      "date": "2015 - 2017",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Internship R&D liquid flow sensors",
+      "company": "Sensirion",
+      "place": "Stäfa",
+      "date": "SEPTEMBER 2019 - FEBRUARY 2020",
+      "description": [
+        "• Developed scripts for collecting and visualizing sensor data using Python",
+        "• Performed stress tests on sensors and control measurements",
+        "• Investigated a new energy-saving measurement method for liquid flow sensors"
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "id": "1",
+      "title": "MSc in Mechanical Engineering",
+      "institution": "ETHZ",
+      "place": "Zürich",
+      "date": "SEPTEMBER 2018 – APRIL 2021",
+      "description": [
+        {
+          "project": "Master Thesis",
+          "projectinstitution": "Federal Institute of Aquatic Science - Eawag",
+          "details": "• Developed an agent-based model to assess political and organizational factors of technology adaptation by stakeholders in the wastewater sector"
+        },
+        {
+          "project": "Semester Project",
+          "projectinstitution": "Laboratory for Energy Conversion",
+          "details": "• Developed simulation scenarios including 8 million agents to assess the future demand of Electric Vehicle charging stations using Python"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "BSc in Mechanical Engineering",
+      "institution": "EPFL",
+      "place": "Lausanne",
+      "date": "SEPTEMBER 2015 – AUGUST 2018",
+      "description": "• Exchange year at Instituto Superior Técnico, Lisbon"
     }
   ]
 }
