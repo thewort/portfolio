@@ -34,22 +34,17 @@ export default function MyPortfolio() {
                                 <h3 className="portfolio--element--title">{item.title}, {item.company}</h3>
                                 <h3 className="portfolio--element--date">{item.date}</h3>
                             </div>
-                            <p className="portfolio--element--description">
-                                {item.description}
-                            </p>
+                            <div className="portfolio--element--description">
+                                {Array.isArray(item.description) ? (
+                                    item.description.map((desc, descIndex) => (
+                                        <p key={descIndex}>{desc}</p>
+                                    ))
+                                ) : (
+                                    <p>{item.description}</p>
+                                )}
+                            </div>
                         </div>
                     ))}
-                    
-                    <div className="portfolio--element--title--container">
-                        <h3 className="portfolio--element--title">Career Break</h3>
-                        <h3 className="portfolio--element--date">2020 - 2021</h3>
-                    </div>
-                    <p className="portfolio--element--description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                        officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-                        recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-                        tempora numquam sint odit optio.
-                    </p>
                 </div>
                 <div className="portfolio--section">
                     <h2 className="portfolio--section--title">Education</h2>
